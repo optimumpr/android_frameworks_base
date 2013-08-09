@@ -227,4 +227,7 @@
 
     <!-- Padding under status bar battery icon -->
     <dimen name="status_bar_battery_bottom_padding">1px</dimen>
+
+    <!-- Battery bar height -->
+    <dimen name="battery_bar_height">2dp</dimen>
 </resources>
