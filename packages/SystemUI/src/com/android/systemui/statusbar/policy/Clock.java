@@ -207,7 +207,7 @@ public class Clock extends TextView implements DemoMode, OnClickListener, OnLong
                     mClockFormatString = ""; // force refresh
                 }
             }
-            updateClock();
+            updateSettings();
         }
     };
 
@@ -333,14 +333,13 @@ public class Clock extends TextView implements DemoMode, OnClickListener, OnLong
                 Settings.System.STATUS_BAR_CLOCK, 1,
                 UserHandle.USER_CURRENT) == 1;
 
+        boolean is24hour = DateFormat.is24HourFormat(mContext);
         int amPmStyle = Settings.System.getIntForUser(resolver,
-                Settings.System.STATUSBAR_CLOCK_AM_PM_STYLE, AM_PM_STYLE_GONE,
+                Settings.System.STATUSBAR_CLOCK_AM_PM_STYLE,
+                is24hour ? AM_PM_STYLE_GONE : AM_PM_STYLE_NORMAL,
                 UserHandle.USER_CURRENT);
-
-        if (mAmPmStyle != amPmStyle) {
-            mAmPmStyle = amPmStyle;
-            mClockFormatString = "";
-        }
+        mAmPmStyle = is24hour ? AM_PM_STYLE_GONE : amPmStyle;
+        mClockFormatString = "";
 
         mClockStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.STATUSBAR_CLOCK_STYLE, STYLE_CLOCK_RIGHT,
