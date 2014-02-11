@@ -41,9 +41,8 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.widget.TextView;
 
+import com.android.systemui.R;
 import com.android.systemui.DemoMode;
-
-import com.android.internal.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -355,8 +354,18 @@ public class Clock extends TextView implements DemoMode, OnClickListener, OnLong
                 Settings.System.STATUSBAR_CLOCK_FONT_STYLE, FONT_NORMAL,
                 UserHandle.USER_CURRENT);
 
+        int defaultColor = getResources().getColor(R.color.status_bar_clock_color);
+        int clockColor = Settings.System.getIntForUser(resolver,
+                Settings.System.STATUSBAR_CLOCK_COLOR, defaultColor,
+                UserHandle.USER_CURRENT);
+        if (clockColor == Integer.MIN_VALUE) {
+            // flag to reset the color
+            clockColor = defaultColor;
+        }
+
         if (mAttached) {
             getFontStyle(mClockFontStyle);
+            setTextColor(clockColor);
             updateClockVisibility();
             updateClock();
         }
