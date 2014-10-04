@@ -4053,7 +4053,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                 break;
 
             case 4:
-            case 7:
                 mode = BatteryMeterMode.BATTERY_METER_GONE;
                 break;
 

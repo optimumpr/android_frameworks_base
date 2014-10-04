@@ -3444,7 +3444,6 @@ public final class Settings {
          * 4: Hide the battery status information
          * 5: Display the battery an icon in landscape mode
          * 6: Display the battery as plain text
-         * 7: Display the battery as bar
          * default: 0
          * @hide
          */
@@ -4528,27 +4527,6 @@ public final class Settings {
          * @hide
          */
         public static final String APP_SIDEBAR_SHOW_TRIGGER = "app_sidebar_show_trigger";
-
-        /**
-         * Battery bar height
-         *
-         * @hide
-         */
-        public static final String BATTERY_BAR_HEIGHT = "battery_bar_height";
-
-        /**
-         * Battery bar left color
-         *
-         * @hide
-         */
-        public static final String BATTERY_BAR_LEFT_COLOR = "battery_bar_left_color";
-
-        /**
-         * Battery bar right color
-         *
-         * @hide
-         */
-        public static final String BATTERY_BAR_RIGHT_COLOR = "battery_bar_right_color";
 
         /**
          * Heads Up Master Switch
