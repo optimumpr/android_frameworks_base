@@ -15,6 +15,7 @@
  */
 package com.android.internal.policy;
 
+import android.graphics.Bitmap;
 import android.content.Intent;
 import android.view.MotionEvent;
 
@@ -47,4 +48,5 @@ interface IKeyguardService {
     oneway void dispatchButtonClick(int buttonId);
     oneway void launchCamera();
     oneway void onBootCompleted();
+    oneway void setBackgroundBitmap(in Bitmap bmp);
 }
