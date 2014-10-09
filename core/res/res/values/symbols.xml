@@ -318,6 +318,7 @@
   <java-symbol type="integer" name="config_wifi_framework_scan_interval" />
   <java-symbol type="integer" name="config_wifi_supplicant_scan_interval" />
   <java-symbol type="integer" name="config_wifi_scan_interval_p2p_connected" />
+  <java-symbol type="integer" name="config_wifi_scan_interval_wfd_connected" />
   <java-symbol type="integer" name="db_connection_pool_size" />
   <java-symbol type="integer" name="db_journal_size_limit" />
   <java-symbol type="integer" name="db_wal_autocheckpoint" />
@@ -2074,20 +2075,6 @@
   <java-symbol type="string" name="theme_install_error_title" />
   <java-symbol type="string" name="theme_install_error_message" />
 
-  <!-- Toast Animation -->
-  <java-symbol type="style" name="Animation.Toast.Fade" />
-  <java-symbol type="style" name="Animation.Toast.SlideRight" />
-  <java-symbol type="style" name="Animation.Toast.SlideLeft" />
-  <java-symbol type="style" name="Animation.Toast.Xylon" />
-  <java-symbol type="style" name="Animation.Toast.Toko" />
-  <java-symbol type="style" name="Animation.Toast.Tn" />
-  <java-symbol type="style" name="Animation.Toast.Honami" />
-  <java-symbol type="style" name="Animation.Toast.FastFade" />
-  <java-symbol type="style" name="Animation.Toast.GrowFade" />
-  <java-symbol type="style" name="Animation.Toast.GrowFadeCenter" />
-  <java-symbol type="style" name="Animation.Toast.GrowFadeBottom" />
-  <java-symbol type="style" name="Animation.Toast.Translucent" />
-  <java-symbol type="style" name="Animation.Toast.SlideRightLeft" />
-  <java-symbol type="style" name="Animation.Toast.SlideLeftRight" />
-
+  <!-- for wifi auto connection -->
+  <java-symbol type="bool" name="wifi_autocon" />
 </resources>
