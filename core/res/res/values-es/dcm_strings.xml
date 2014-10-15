@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <!-- Error description on theme switch with ligtsensor mode enabled -->
+  <string name="theme_auto_switch_mode_error">Modalidad cambio de condición de luz automático está activado. Conmutación manual no es posible.</string>
+  
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_recordScreen">Visualizando contenido grabado</string>
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_recordScreen">Permite a la aplicación grabar la pantalla del usuario.</string>
+
+  <!-- label for screen record item in phone options dialog -->
+  <string name="global_action_screen_record">Grabación Pantalla</string>
+
+  <!-- label for nav bar item in phone options dialog -->
+  <string name="global_actions_nav_bar_mode">Barra de Navegación</string>
+  <!-- status message in phone options dialog for when navigation bar is on -->
+  <string name="global_actions_nav_bar_mode_on_status">Barra de Navegación activada</string>
+  <!-- status message in phone options dialog for when navigation bar is off -->
+  <string name="global_actions_nav_bar_mode_off_status">Barra de Navegación desactivada</string>
+  <!-- Error message if user want to try to disable all navigation options -->
+  <string name="disable_navigation_pie_error">No se puede desactivar la barra de navegación. Ningún otro control de navegación está activado. Habilitar primero controles PIE para desactivar la barra de navegación.</string>
+
+  <!-- Heads up -->
+  <string name="permlab_changeHeadsUpState">Activar o desactivar heads up</string>
+  <string name="permdesc_changeHeadsUpState">Permite que la aplicación cambie si se permite otra aplicación para mostrar las notificaciones normales como heads up notificación.</string>
+
+  <!-- AOKP Animations -->
+  <string name="animation_fade">Fundido</string>
+  <string name="animation_slide_right">Deslice a la derecha</string>
+  <string name="animation_slide_left">Deslice a la izquierda</string>
+  <string name="animation_slide_right_no_fade">Deslice a la derecha (sin fundido)</string>
+  <string name="animation_slide_left_no_fade">Deslice a la izquierda (sin fundido)</string>
+  <string name="animation_slide_up">Deslice hacia abajo</string>
+  <string name="animation_slide_down">Deslice hacia arriba</string>
+  <string name="animation_default">Defecto</string>
+  <string name="animation_translucent">Translúcido</string>
+  <string name="animation_grow_shrink">Crecer hacia (arriba)</string>
+  <string name="animation_grow_shrink_center">Crecer hacia (Centro)</string>
+  <string name="animation_grow_shrink_bottom">Crecer hacia (abajo)</string>
+  <string name="animation_grow_shrink_left">Crecer hacia (izquierda)</string>
+  <string name="animation_grow_shrink_right">Crecer hacia (derecha)</string>
+  <string name="action_null">Blanco</string> 
+
+</resources>
