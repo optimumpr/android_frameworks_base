@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Content description of the halo button in the notification panel for accessibility (not sho
+         wn on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_halo">Crear notificación halo.</string>
+
+    <!-- HALO -->
+    <string name="halo_dismiss">Olvidar notificación</string>
+    <string name="halo_hide">Ocultar</string>
+    <string name="halo_clear_all">Olvidar todas las notificaciones</string>
+    <string name="halo_silence">Ocultar &amp; silencio hasta despertado</string>
+    <string name="halo_tutorial1">Este es Halo</string>
+    <string name="halo_tutorial2">Mueveme: 2 tap &amp; arrastrame</string>
+    <string name="halo_tutorial3">Recorrer las tareas: arrastrar Horizontal</string>
+
+    <!-- TRDS -->
+    <string name="quick_settings_theme_switch_dark">Tema oscuro</string>
+    <string name="quick_settings_theme_switch_light">Tema claro</string>
+
+    <!-- Power menu -->
+    <string name="quick_settings_powermenu_label">Menu Boton encendido</string>
+
+    <!-- Recents Ram Bar -->
+    <string name="memory">RAM</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of background processes -->
+    <string name="service_free_mem"><xliff:g id="memory">%1$s</xliff:g> libre</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
+    <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> usada</string>
+
+    <string name="status_bar_notification_hide_icon_packages">Ocultar iconos de notificaciones de la barra de estado</string>
+
+    <!-- Dialog Cancel/OK -->
+    <string name="cancel">Cancelar</string>
+    <string name="dlg_ok">Ok</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <!-- Notifications reminders -->
+    <string name="quick_settings_reminder">Recordatorio</string>
+    <string name="quick_settings_reminder_title">Titulo:</string>
+    <string name="quick_settings_reminder_message">Mensaje:</string>
+    <string name="quick_settings_reminder_time">Tiempo recordatorio</string>
+    <string name="quick_settings_reminder_set">Tiempo establecido</string>
+    <string name="quick_settings_reminder_update">Actualiza tiempo</string>
+    <string name="quick_settings_reminder_no_expire">Sin notificación</string>
+    <string name="quick_settings_reminder_dismiss">Borrar recordatorio</string>
+    <string name="quick_settings_reminder_dismiss_message">Borrar recordatorio actual?</string>
+    <string name="quick_settings_reminder_help_title">Toca</string>
+    <string name="quick_settings_reminder_noti_dismiss">Olvidar</string>
+    <string name="quick_settings_reminder_noti_later">Actualiza tiempo</string>
+    <string name="quick_settings_reminder_help_message">Toque el espacio vacío por encima para establecer o cambiar el recordatorio. Mantenga presionada para borrar el recordatorio actual.</string>
+
+    <!-- Slim recents -->
+    <string name="status_bar_recent_playstore_item_title">Play Store</string>
+    <string name="status_bar_recent_amazon_item_title">Amazon Store</string>
+
+    <!-- Long-press back kill application -->
+    <string name="app_killed_message">Aplicación matada</string>
+
+    <!-- App sidebar -->
+    <string name="default_folder_text">Carpeta</string>
+    <string name="title_activity_sidebar_configuration">Setup de contenido appbar</string>
+    <string name="action_save">Guardar</string>
+    <string name="toast_items_saved">Objetos de la appbar fueron guardados.</string>
+    <string name="content_setup_instructions">Añadir objetos a la appbar presionando mucho sobre cualquier aplicación a la derecha y arrastrar sobre la appbar.\n\nCombinar elementos en carpetas encimar un elemento sobre otro existente en la appbar.\n\nPara eliminar un elemento, simplemente arrástrelo fuera del appbar.</string>
+    <string name="content_setup_dismiss">Continue</string>
+    <string name="toast_not_installed">Aplicación no instalada</string>
+
+    <!-- Title shown in notification popup for launching notification in floating mode -->
+    <string name="status_bar_notification_floating_item_title">Modo flotante</string>
+    <!-- Title shown in recents popup for showing app in floating mode -->
+    <string name="status_bar_recent_floating_item_title">Modo flotante</string>
+
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">Cargando (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">Cargado</string>
+    <string name="pie_battery_status_discharging"><xliff:g id="percent">%d</xliff:g>%% faltante</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">Sin servicio</string>
+    <string name="pie_phone_status_airplane_mode">Modo aereo encendido</string>
+    <string name="pie_phone_status_emergency_only">Solo llamadas de emergencia</string>
+
+    <!-- Blacklisted app for floating mode -->
+    <string name="floating_mode_blacklisted_app">La aplicación actual esta en la lista negra, y puede no funcionar como se espera en modo flotante</string>
+
+    <!-- Title shown when app provides no interface -->
+    <string name="status_bar_floating_no_interface">Aplicación sin interfaz</string>
+
+    <!-- Title shown in recents popup for showing app in floating mode -->
+    <string name="status_bar_recent_floating_item_title">Modo flotante</string>
+
+    <!-- First time run hover -->
+    <string name="hover_cling_text">Hover ahora está habilitado.\n\nCuando llegue una nueva notificación, una superposición mostrará la notificación lo que le permitirá responder a la misma sin salir de la aplicación actual.</string>
+
+    <!-- Heads up -->
+    <string name="status_bar_notification_heads_up_enable_title">Activar heads up</string>
+    <string name="status_bar_notification_heads_up_disable_title">Desactivar heads up</string>
+    <string name="heads_up_snooze_message">Heads up esta desactivada por <xliff:g id="number">%d</xliff:g> minutos.</string>
+
+</resources>
